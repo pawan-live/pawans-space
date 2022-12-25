@@ -3,7 +3,7 @@ title: "About"
 layout: page-sidebar
 permalink: "/about.html"
 image: "/assets/images/screenshot.jpg"
-comments: true
+comments: false
 ---
 I’m Pawan, an undergraduate student who loves coding web apps, design, DIY projects, traveling, playing guitar, and skateboarding. Based in the tropical island of Sri Lanka, I will try to bring you most of the lively and nice experiences I've gained being here.
 
