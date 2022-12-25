@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Pawan's Space!"
-categories: [  ]
+categories: [ featured, sticky ]
 image: assets/images/demo1.jpg
 ---
 Hi all, Welcome to my blog! This would be my first post on this blog, which I managed to finally get up and running after procrastinating for so long 😆. Yeah, I always had this idea of starting a blog and hopefully, writing regularly, which I couldn't achieve (by the way, this isn't my first blog— I started several but could not continue due to various reasons). So hopefully this will be updated regularly, I mean, worst case, at least once a week 🤞.
