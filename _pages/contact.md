@@ -2,6 +2,7 @@
 title: "Contact"
 permalink: "/contact.html"
 ---
+You can contact me on any of the methods available [here](https://itspawanlive.me/links) or fill the form below!
 
 <form action="https://formspree.io/{{site.email}}" method="POST">    
 <p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
