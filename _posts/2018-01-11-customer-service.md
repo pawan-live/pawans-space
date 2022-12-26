@@ -1,31 +1,18 @@
 ---
 layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
-tags: [red, yellow]
+title:  "Welcome to Pawan's Space!"
+author: pawan
+categories: [ travel, life ]
+tags: []
 image: assets/images/11.jpg
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "Welcome to my blog!"
 featured: true
-hidden: true
-rating: 4.5
 ---
 
-Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
+Hi all, Welcome to my blog! This would be my first post on this blog, which I managed to finally get up and running after procrastinating for so long 😆. Yeah, I always had this idea of starting a blog and hopefully, writing regularly, which I couldn't achieve (by the way, this isn't my first blog— I started several but could not continue due to various reasons). So hopefully this will be updated regularly, I mean, worst case, at least once a week 🤞.
 
-#### How to use?
+### What to expect from this—
 
-It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
+As you might know ([see about](https://blog.itspawanlive.me/about)), I'm a fan of travel, and exploration other than tech. (Yeah this is not going to be a developer blog 😆 like everyone does) I'll be sharing my experiences here, be it travel, exploring places, learning new things and whatnot. So If you stumbled upon this post by any means, you can regularly check this space for updates. Or else you can subscribe with your email below to get notified whenever I make a new post.
 
-```html
----
-layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
-tags: [red, yellow]
-image: assets/images/11.jpg
-description: "My review of Inception movie. Actors, directing and more."
-rating: 4.5
----
-```
+That's all peeps, have a nice day/night! 🎉
