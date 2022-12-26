@@ -1,7 +1,7 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: "Pawanʼs Space"
+title: "Pawanʼs Space"
+description: "Welcome to Pawanʼs Space! Tech—Life—Travel—Everything."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
@@ -16,7 +16,7 @@ authors:
   pawan:
     name: Pawan Senpura
     display_name: Pawan
-    gravatar: 
+    gravatar: b875c89a5725139decd4c2e55b8737f7
     email: itspawanlive@gmail.com
     web: https://itspawanlive.me
     twitter: https://twitter.com/pawan11x
