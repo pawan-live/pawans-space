@@ -1,12 +1,35 @@
 ---
-title: "About"
-layout: page-sidebar
-permalink: "/about.html"
-image: "/assets/images/screenshot.jpg"
-comments: false
+layout: page
+title: Mediumish Template for Jekyll
+permalink: /about
+comments: true
 ---
-I’m Pawan, an undergraduate student who loves coding web apps, design, DIY projects, traveling, playing guitar, and skateboarding. Based in the tropical island of Sri Lanka, I will try to bring you most of the lively and nice experiences I've gained being here.
 
-Currently I’m working as a trainee frontend web developer, and other than that, what I do mostly is build web applications while learning new stuff.
+<div class="row justify-content-between">
+<div class="col-md-8 pr-5">
 
-I will manage to share most of my experiences here, and would love to connect. [Find me here](https://itspawanlive.me/links)
+<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
+<h4>Documentation</h4>
+
+<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+
+<h4>Questions or bug reports?</h4>
+
+<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="sticky-top sticky-top-80">
+<h5>Buy me a coffee</h5>
+
+<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+
+<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+
+</div>
+</div>
+</div>
