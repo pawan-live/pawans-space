@@ -4,7 +4,7 @@ title:  "Welcome to Pawan's Space!"
 author: pawan
 categories: [ travel, life ]
 tags: []
-image: assets/images/11.jpg
+image: assets/images/30AEEB55-F1A2-4532-9207-717682955B2B.jpeg
 description: "Welcome to my blog!"
 featured: true
 ---
