@@ -1,57 +1,63 @@
 # Site
-name: 'Pawanʼs Space'
-description: 'Welcome to Pawanʼs Space! Tech—Life—Travel—Everything'
+name: "Pawanʼs Space"
+title: "Pawanʼs Space"
+description: "Welcome to Pawanʼs Space! Tech—Life—Travel—Everything."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: ''
+favicon: 'assets/images/logo.png'
+baseurl: 
+google_analytics: ''
 disqus: 'pawans-space'
-email: 'hello@itspawanlive.me'
 mailchimp-list: ''
-
 include: ["_pages"]
 permalink: /:title/
 
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  
+# Authors
 authors:
-    pawan:
-      name:           Pawan Senpura
-      site:           https://itspawanlive.me
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Pawan. I write about travel, tech, and exploring new things. Hope you like it!"
-      email:          hello@itspawanlive.me
-      twitter:        https://twitter.com/pawan11x
-
-# Defaults
-defaults:
-
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
-      
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-      
-# Syntax
+  pawan:
+    name: Pawan Senpura
+    display_name: Pawan
+    gravatar: b875c89a5725139decd4c2e55b8737f7
+    email: itspawanlive@gmail.com
+    web: https://itspawanlive.me
+    twitter: https://twitter.com/pawan11x
+    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
 markdown: kramdown
-highlighter: rouge
 
-# Paginate
-paginate: 10
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
 
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
